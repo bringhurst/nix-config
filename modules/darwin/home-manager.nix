@@ -40,7 +40,6 @@ in
     # This message is safe to ignore. (https://github.com/dustinlyons/nixos-config/issues/83)
 
     masApps = {
-      "1password" = 1333542190;
       "wireguard" = 1451685025;
     };
   };
@@ -73,15 +72,10 @@ in
     dock = {
       enable = true;
       entries = [
-        { path = "/Applications/Slack.app/"; }
+        { path = "/Applications/Google Chrome.app/"; }
         { path = "/System/Applications/Messages.app/"; }
-        { path = "/System/Applications/Facetime.app/"; }
-        { path = "${pkgs.alacritty}/Applications/Alacritty.app/"; }
+        { path = "${pkgs.ghostty}/Applications/Ghostty.app/"; }
         { path = "/System/Applications/Music.app/"; }
-        { path = "/System/Applications/News.app/"; }
-        { path = "/System/Applications/Photos.app/"; }
-        { path = "/System/Applications/Photo Booth.app/"; }
-        { path = "/System/Applications/TV.app/"; }
         { path = "/System/Applications/Home.app/"; }
         {
           path = toString myEmacsLauncher;

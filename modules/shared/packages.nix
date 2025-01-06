@@ -2,7 +2,6 @@
 
 with pkgs; [
   # General packages for development and system management
-  alacritty
   aspell
   aspellDicts.en
   bash-completion
@@ -10,7 +9,6 @@ with pkgs; [
   btop
   coreutils
   killall
-  neofetch
   openssh
   sqlite
   wget
@@ -27,7 +25,6 @@ with pkgs; [
   docker-compose
 
   # Media-related packages
-  emacs-all-the-icons-fonts
   dejavu_fonts
   ffmpeg
   fd
